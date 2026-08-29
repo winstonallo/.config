@@ -66,4 +66,16 @@
             "ctrl-shift-k": "editor::DeleteLine",
         },
     },
+    {
+        "context": "Editor",
+        "unbind": {
+            "cmd-[": "editor::Outdent"
+        }
+    },
+    {
+        "context": "Editor",
+        "unbind": {
+            "cmd-]": "editor::Indent"
+        }
+    }
 ]
